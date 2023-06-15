@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "question": "Jakie jest twoje ulubione jedzenie?",
+        "answer": "Moje ulubione jedzenie to spaghetti."
+    },
+    {
+        "id": "2",
+        "question": "Jaki jest twój ulubiony kolor?",
+        "answer": "Mój ulubiony kolor to niebieski."
+    },
+    {
+        "id": "3",
+        "question": "Gdzie jest najbliższy sklep?",
+        "answer": "Najbliższy sklep jest na rogu ulicy."
+    },
+    {
+        "id": "4",
+        "question": "Jakie są godziny otwarcia?",
+        "answer": "Jesteśmy otwarci od 9 do 17."
+    },
+    {
+        "id": "5",
+        "question": "Jak mogę skontaktować się z obsługą klienta?",
+        "answer": "Możesz skontaktować się z nami przez formularz kontaktowy na naszej stronie."
+    }
+]
