@@ -63,7 +63,10 @@ export const Nav = () => {
           </div>
           <div className="flex mr-20  md:hidden">
             {/* Mobile menu button */}
-            <button className={isOpen ? "hidden" : "flex items-center"}>
+            <button
+              type="button"
+              className={isOpen ? "hidden" : "flex items-center"}
+            >
               <Bars3BottomRightIcon
                 className="w-10 h-10"
                 onClick={() => setIsOpen(!isOpen)}
