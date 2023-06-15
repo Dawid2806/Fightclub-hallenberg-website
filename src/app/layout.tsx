@@ -2,6 +2,7 @@ import { Nav } from "@/components/Nav/Nav";
 import "./globals.css";
 import { Roboto } from "next/font/google";
 import localFont from "next/font/local";
+import { Footer } from "@/components/Footer/Footer";
 
 const roboto = Roboto({
   weight: ["300", "700", "900"],
@@ -30,6 +31,7 @@ export default function RootLayout({
         <>
           <Nav />
           {children}
+          <Footer />
         </>
       </body>
     </html>

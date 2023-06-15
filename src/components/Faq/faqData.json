@@ -1,27 +1,22 @@
 [
     {
-        "id": "1",
-        "question": "Jakie jest twoje ulubione jedzenie?",
-        "answer": "Moje ulubione jedzenie to spaghetti."
+        "id": 1,
+        "question": "Was ist der Unterschied zwischen Thaiboxen und MMA?",
+        "answer": "Thaiboxen (auch bekannt als K1) konzentriert sich auf den Standkampf und beinhaltet alle Box- und Tritt-/Kniestoßtechniken. In dieser Kampfsportart sind Ellenbogenschläge NICHT erlaubt.\n\nIm Gegensatz dazu ist MMA (Mixed Martial Arts) deutlich vielseitiger und ermöglicht sowohl den Stand- als auch den Bodenkampf. Dabei werden verschiedenste Aufgabegriffe wie Würgegriffe, Hebeltechniken oder auch das sogenannte Ground-and-Pound genutzt, um den Gegner zur Aufgabe zu zwingen. MMA bezieht Techniken aus vielen bekannten Kampfsportarten, wie z.B. Ringen, brasilianisches Jiu-Jitsu, Judo und Thaiboxen ein. Im MMA wird mit offenen, dünneren Handschuhen gekämpft, während im Thaiboxen vollständig geschlossene Handschuhe verwendet werden."
     },
     {
-        "id": "2",
-        "question": "Jaki jest twój ulubiony kolor?",
-        "answer": "Mój ulubiony kolor to niebieski."
+        "id": 2,
+        "question": "Welche Vorteile bietet das Training in Kampfsportarten?",
+        "answer": "Durch das Training in Kampfsportarten lernst du, dich in Gefahrensituationen zu verteidigen.\n\nNoch wichtiger ist aber, dass du dabei entdeckst, dass du mehr erreichen kannst, als du denkst. Du stärkst dein Selbstvertrauen, indem du dir beweist, dass du jeden Gegner besiegen kannst - und das gilt nicht nur für den Ring, sondern auch für den Alltag. Im Alltag haben wir viele Herausforderungen wie z.B. Stress, Druck und vielleicht sogar ein falsches Selbstbild."
     },
     {
-        "id": "3",
-        "question": "Gdzie jest najbliższy sklep?",
-        "answer": "Najbliższy sklep jest na rogu ulicy."
+        "id": 3,
+        "question": "Was benötige ich für das Training?",
+        "answer": "Für das Training benötigst du ein Handtuch, Wasser, saubere Füße (da das Training barfuß durchgeführt wird) und den Willen, dich weiterzuentwickeln und zu wachsen."
     },
     {
-        "id": "4",
-        "question": "Jakie są godziny otwarcia?",
-        "answer": "Jesteśmy otwarci od 9 do 17."
-    },
-    {
-        "id": "5",
-        "question": "Jak mogę skontaktować się z obsługą klienta?",
-        "answer": "Możesz skontaktować się z nami przez formularz kontaktowy na naszej stronie."
+        "id": 4,
+        "question": "Kann ich einfach zu einem kostenlosen Probetraining kommen?",
+        "answer": "Ja, du kannst gerne zum kostenlosen Probetraining kommen. Bitte melde dich jedoch vorher telefonisch oder per Instagram bei uns an, damit wir dich einplanen können. Du bist bei uns herzlich willkommen."
     }
 ]

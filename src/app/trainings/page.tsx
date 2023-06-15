@@ -2,6 +2,7 @@ import { Faq } from "@/components/Faq/Faq";
 import { Header } from "@/components/Header/Header";
 import { HeroHeading } from "@/components/HeroHeading/HeroHeading";
 import { SectionLayout } from "@/components/sectionLayout/SectionLayout";
+import { Vortail } from "@/components/vortaile/Vortail";
 import Image from "next/image";
 import React from "react";
 
@@ -52,18 +53,9 @@ const Trainings = () => {
       <SectionLayout sectionTitle="Faq" sectionID="#faq">
         <Faq />
       </SectionLayout>
-
-      <div className="relative flex items-center justify-center  overflow-hidden">
-        <div className="bg-black w-full h-full absolute top-0 left-0  z-20 opacity-70"></div>
-        <div className="absolute z-30 bottom-1/4 left-2/4 -translate-x-2/4 -translate-y-2/4 uppercase font-ddc  "></div>
-        <Image
-          src="/image/young-woman-boxer-training-gym.jpg"
-          alt=""
-          width={1920}
-          height={220}
-          loading="lazy"
-        />
-      </div>
+      <span></span>
+      <Vortail url="/video/Selbstverteidigung.mp4" title="Selbstverteidigung" />
+      <Vortail url="/video/fit.mp4" title="Fit zu sein" />
     </div>
   );
 };

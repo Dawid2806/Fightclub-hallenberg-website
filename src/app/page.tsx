@@ -66,10 +66,6 @@ export default function HomePage() {
           <SectionLayout sectionTitle="Kontakt" sectionID="kontakt">
             <ContactForm />
           </SectionLayout>
-
-          <SectionLayout sectionID="footer">
-            <Footer />
-          </SectionLayout>
         </>
       )}
     </>
