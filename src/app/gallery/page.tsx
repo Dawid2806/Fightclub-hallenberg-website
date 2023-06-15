@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header/Header";
 import { SectionLayout } from "@/components/sectionLayout/SectionLayout";
+import Script from "next/script";
 import React from "react";
 
 export default function Gallery() {
@@ -14,7 +15,7 @@ export default function Gallery() {
         </>
       </Header>
       <SectionLayout>
-        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+        <Script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></Script>
         <iframe
           src="//lightwidget.com/widgets/aa53e8e015f05746b1e44b4e6418a30d.html"
           className="lightwidget-widget py-4"

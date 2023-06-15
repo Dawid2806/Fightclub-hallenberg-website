@@ -1,10 +1,11 @@
 import Link from "next/link";
+import Script from "next/script";
 import React, { useEffect, useRef } from "react";
 
 export const Gallery = () => {
   return (
     <div className="my-20">
-      <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+      <Script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></Script>
       <iframe
         src="//lightwidget.com/widgets/d1a2b4be310c5ce38bc21c26014c39f1.html"
         className="lightwidget-widget"

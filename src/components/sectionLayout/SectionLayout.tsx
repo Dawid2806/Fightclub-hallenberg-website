@@ -7,7 +7,7 @@ export const SectionLayout = ({
 }: {
   children: React.ReactNode;
   sectionTitle?: string;
-  sectionID: string;
+  sectionID?: string;
 }) => {
   return (
     <section

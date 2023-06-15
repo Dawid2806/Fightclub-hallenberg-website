@@ -18,26 +18,22 @@ export const ContactForm = () => {
   });
 
   const onSubmit = async (data: FormData) => {
+    const { firstName, lastName, email, phone, message } = data;
     console.log(data);
     try {
-      const response = await fetch("/api/elo", {
+      const res = fetch("api/send_email", {
         method: "POST",
-        body: JSON.stringify({ data }),
+        body: JSON.stringify({
+          firstName,
+          email,
+          message,
+        }),
         headers: {
-          "Content-Type": "application/json",
+          "Access-Control-Allow-Headers": "Content-Type, Authorization",
         },
       });
-
-      const responseData = await response.json();
-
-      if (!response.ok) {
-        throw new Error(responseData.message || "Something went wrong!");
-      }
-
-      console.log(responseData.message);
-    } catch (err) {
-      console.error(err);
-    }
+      (await res).json();
+    } catch {}
   };
 
   return (

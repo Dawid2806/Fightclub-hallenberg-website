@@ -1,5 +1,4 @@
 "use client";
-
 import { Nav } from "@/components/Nav/Nav";
 import "./globals.css";
 import { Roboto } from "next/font/google";
