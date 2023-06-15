@@ -20,8 +20,6 @@ interface InputProps {
   isTextarea: boolean;
 }
 
-type FormData = yup.InferType<typeof schema>;
-
 export const Input = ({
   registerName,
   name,

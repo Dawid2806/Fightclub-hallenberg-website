@@ -1,10 +1,7 @@
-"use client";
 import { Nav } from "@/components/Nav/Nav";
 import "./globals.css";
 import { Roboto } from "next/font/google";
 import localFont from "next/font/local";
-import { useEffect, useState } from "react";
-import { Loader } from "@/components/Loader/Loader";
 
 const roboto = Roboto({
   weight: ["300", "700", "900"],
@@ -25,28 +22,15 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <html lang="de" className="bg-black">
       <body
         className={`${DDC_Hardware.variable} ${roboto.className} text-primary max-w-[1920px] mx-auto relative top-0`}
       >
-        {loading ? (
-          <Loader />
-        ) : (
-          <>
-            <Nav />
-            {children}
-          </>
-        )}
+        <>
+          <Nav />
+          {children}
+        </>
       </body>
     </html>
   );
