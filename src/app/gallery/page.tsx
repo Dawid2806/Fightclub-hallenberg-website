@@ -1,11 +1,15 @@
 import { Header } from "@/components/Header/Header";
 import { SectionLayout } from "@/components/sectionLayout/SectionLayout";
+import Head from "next/head";
 import Script from "next/script";
 import React from "react";
 
 export default function Gallery() {
   return (
     <div>
+      <Head>
+        <title>Gallery</title>
+      </Head>
       <Header hasVideo={false} url="/image/young-woman-boxer-training-gym.jpg">
         <>
           <h1 className="text-7xl text-center ">unsere</h1>

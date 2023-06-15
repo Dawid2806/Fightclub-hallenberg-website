@@ -3,12 +3,16 @@ import { Header } from "@/components/Header/Header";
 import { HeroHeading } from "@/components/HeroHeading/HeroHeading";
 import { SectionLayout } from "@/components/sectionLayout/SectionLayout";
 import { Vortail } from "@/components/vortaile/Vortail";
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
 const Trainings = () => {
   return (
     <div>
+      <Head>
+        <title>Trainings</title>
+      </Head>
       <Header hasVideo={true} url="/video/training_header.mp4">
         <>
           <h1 className="text-7xl text-center ">unsere</h1>
