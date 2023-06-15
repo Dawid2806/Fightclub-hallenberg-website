@@ -12,7 +12,7 @@ export const Nav = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="sticky z-50 bg-black top-0 pt-8 ">
+    <nav className="sticky z-30 bg-black top-0 pt-8 ">
       <div>
         <div className="flex justify-between md:block">
           <div className="flex items-center justify-between mx-20">

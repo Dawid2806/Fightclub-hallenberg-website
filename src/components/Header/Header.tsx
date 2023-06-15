@@ -14,7 +14,7 @@ export const Header = ({ url, children, hasVideo }: HeaderProps) => {
       id="header"
     >
       <div className="bg-black w-full h-full absolute top-0 left-0  z-20 opacity-70"></div>
-      <div className="absolute z-30 bottom-1/4 left-2/4 -translate-x-2/4 -translate-y-2/4 uppercase font-ddc  ">
+      <div className="absolute z-20 bottom-1/4 left-2/4 -translate-x-2/4 -translate-y-2/4 uppercase font-ddc  ">
         {children}
       </div>
       {hasVideo ? (

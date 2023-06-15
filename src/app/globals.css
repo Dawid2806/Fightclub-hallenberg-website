@@ -8,3 +8,16 @@
 .elo::-webkit-scrollbar{
     display: none
 }
+.animation {
+    animation: scaleAnimation 1s  linear ;
+  }
+  
+  @keyframes scaleAnimation {
+    0% {
+      transform: scale(0);
+    }
+  
+    100% {
+        transform: scale(1);
+    }
+  }
