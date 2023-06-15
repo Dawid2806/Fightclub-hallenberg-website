@@ -21,3 +21,30 @@
         transform: scale(1);
     }
   }
+
+
+  .mobile_nav_animation {
+    animation: slideInFromLeft 0.5s forwards;
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .mobile_nav_exit_animation {
+    animation: slideOutToLeft 0.5s forwards;
+  }
+  
+  @keyframes slideOutToLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
