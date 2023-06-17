@@ -11,12 +11,12 @@ export const PricingCard = ({
   trainingTitle,
 }: PricingCardProps) => {
   return (
-    <div className="flex flex-col  bg-black shadow-2xl shadow-white max-w-[300px] rounded-tl-3xl rounded-br-3xl text-center text-primary">
+    <div className="flex flex-col  bg-black shadow-2xl shadow-slate-500 max-w-[300px] rounded-tl-3xl rounded-br-3xl text-center text-primary">
       <h4 className=" uppercase font-ddc text-6xl px-10 py-4 mt-8">
         {trainingTitle}
       </h4>
       <span className="text-secondary text-3xl font-[900] p-4">
-        ${price}/mo
+        €{price}/mo
       </span>
       <div className="flex flex-col text-lg">{children}</div>
       <a

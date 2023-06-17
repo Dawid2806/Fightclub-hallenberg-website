@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .elo::-webkit-scrollbar{
     display: none
@@ -48,5 +52,23 @@
       transform: translateX(-100%);
     }
   }
-
- 
+  @keyframes scaleAndBorder {
+    0% {
+      transform: scale(1);
+      border-bottom: 0 solid transparent;
+    }
+    100% {
+      transform: scale(1.5);
+      border-bottom: 1px solid white; /* możesz zmienić kolor na dowolny */
+    }
+  }
+  
+  .element {
+    transform: scale(1);
+    border-bottom: 1px white solid transparent;
+    transition: all 0.3s; /* możesz dostosować czas trwania */
+  }
+  
+  .element:hover {
+    animation: scaleAndBorder 0.5s linear forwards;
+  }

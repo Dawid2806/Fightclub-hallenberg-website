@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import { GenericLink } from "./GenericLink";
 import { Logo } from "../Logo/Logo";
@@ -10,16 +10,31 @@ import classNames from "classnames";
 export const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
+  const [scrollTo, setScrollTo] = useState<string | null>(null);
 
   const pathname = usePathname();
 
+  useEffect(() => {
+    if (!isOpen || !scrollTo) return;
+    const timer = setTimeout(() => {
+      const element = document.getElementById(scrollTo);
+      if (element) {
+        element.scrollIntoView({
+          behavior: "smooth",
+        });
+      }
+      setScrollTo(null);
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, [isOpen, scrollTo]);
+
   const handleCloseMenu = () => {
     setIsClosing(true);
-    // Po pewnym czasie (dopasowanym do czasu trwania animacji), zmieniamy stan 'isOpen' na 'false'
     setTimeout(() => {
       setIsOpen(false);
       setIsClosing(false);
-    }, 500); // 500ms to czas trwania naszej animacji
+    }, 500);
   };
 
   return (
@@ -38,7 +53,7 @@ export const Nav = () => {
                 <GenericLink
                   href={pathname === "/" ? "#uberuns" : "/#uberuns"}
                   title="uber uns"
-                />{" "}
+                />
                 <GenericLink
                   href={pathname === "/" ? "#preise" : "/#preise"}
                   title="preise"
@@ -53,7 +68,12 @@ export const Nav = () => {
                   href={pathname === "/" ? "#gallery" : "/#gallery"}
                   title="gallery"
                 />
-                <Link href={"https://www.fightclub-hallenberg.app/"}>App</Link>
+                <Link
+                  className="element"
+                  href={"https://www.fightclub-hallenberg.app/"}
+                >
+                  App
+                </Link>
                 <GenericLink
                   href={pathname === "/" ? "#kontakt" : "/#kontakt"}
                   title="kontakt"

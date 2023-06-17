@@ -17,7 +17,7 @@ export const Gallery = () => {
         }}
       />
       <div>
-        <Link href={"/trainings"} legacyBehavior>
+        <Link href={"/gallery"} legacyBehavior>
           <a className="bg-secondary py-2 px-4 block w-fit mx-auto mt-10 font-ddc  text-2xl">
             Alle Bilder{" "}
           </a>

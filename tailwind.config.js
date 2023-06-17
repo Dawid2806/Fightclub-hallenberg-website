@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#E4EBF3",
-        secondary: "#AC1D1D",
+        secondary: "#db2727",
       },
       fontFamily: {
         ddc: ["var(--DDC_Hardware)"],
