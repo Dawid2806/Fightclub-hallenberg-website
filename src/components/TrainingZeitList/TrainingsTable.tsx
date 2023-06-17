@@ -10,29 +10,29 @@ export const TrainingsTable = () => {
         <TrainingDay day="montag">
           <Training time="17:00-18:15" training="Kinder-Training" />
           <Training time="18:30-19:45" training="Thaiboxen" />
-          <Training time="18:30-19:45" training="MMA" />
+          <Training time="20:00-21:15" training="MMA" />
         </TrainingDay>
         <TrainingDay day="dienstag">
-          <Training time="17:00-18:30" training="Lady-Training" />
+          <Training time="17:00-18:15" training="Lady-Training" />
         </TrainingDay>
         <TrainingDay day="mittwoch">
           <Training time="17:00-18:15" training="Kinder-Training" />
           <Training time="18:30-19:45" training="Thaiboxen" />
-          <Training time="18:30-19:45" training="MMA" />
+          <Training time="20:00-21:15" training="MMA" />
         </TrainingDay>
         <TrainingDay day="donnerstag">
-          <Training time="17:00-18:30" training="Lady-Training" />
+          <Training time="17:00-18:15" training="Lady-Training" />
         </TrainingDay>
         <TrainingDay day="freitag">
           <Training time="18:30-19:45" training="Thaiboxen" />
-          <Training time="18:30-19:45" training="MMA" />{" "}
+          <Training time="20:00-21:15" training="MMA" />
         </TrainingDay>
         <TrainingDay day="samstag">
           <Training time="10:30-11:45" training="Kinder-Training" />
           <Training time="12:00-13:15" training="Lady-Training" />
         </TrainingDay>
         <TrainingDay day="sonntag">
-          <Training time="11-14:00" training="Offene Matte" />
+          <Training time="nach vereinbarung" training="Offene Matte" />
         </TrainingDay>
       </div>
       <div>

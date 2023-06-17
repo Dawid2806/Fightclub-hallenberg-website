@@ -52,7 +52,7 @@ export const Nav = () => {
                 />
                 <GenericLink
                   href={pathname === "/" ? "#uberuns" : "/#uberuns"}
-                  title="uber uns"
+                  title="über uns"
                 />
                 <GenericLink
                   href={pathname === "/" ? "#preise" : "/#preise"}
@@ -62,7 +62,7 @@ export const Nav = () => {
                   href={
                     pathname === "/" ? "#trainingszeiten" : "/#trainingszeiten"
                   }
-                  title="trainings"
+                  title="training"
                 />
                 <GenericLink
                   href={pathname === "/" ? "#gallery" : "/#gallery"}
@@ -132,7 +132,7 @@ export const Nav = () => {
               />
               <GenericLink
                 href={pathname === "/" ? "#uberuns" : "/#uberuns"}
-                title="uber uns"
+                title="über uns"
                 isMobile={true}
                 closeMenu={() => setIsOpen(false)}
               />
@@ -146,7 +146,7 @@ export const Nav = () => {
                 href={
                   pathname === "/" ? "#trainingszeiten" : "/#trainingszeiten"
                 }
-                title="trainingszeiten"
+                title="training"
                 isMobile={true}
                 closeMenu={() => setIsOpen(false)}
               />

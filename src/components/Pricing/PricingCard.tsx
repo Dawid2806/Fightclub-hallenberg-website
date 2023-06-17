@@ -16,7 +16,7 @@ export const PricingCard = ({
         {trainingTitle}
       </h4>
       <span className="text-secondary text-3xl font-[900] p-4">
-        €{price}/mo
+        €{price}/mtl.
       </span>
       <div className="flex flex-col text-lg">{children}</div>
       <a
