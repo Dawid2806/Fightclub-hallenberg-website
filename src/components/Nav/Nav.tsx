@@ -85,7 +85,7 @@ export const Nav = () => {
             {/* Mobile menu button */}
             <button
               type="button"
-              className={isOpen ? "hidden" : "flex items-center"}
+              className={isOpen ? "hidden " : "flex items-center sr-only	"}
             >
               <Bars3BottomRightIcon
                 className="w-10 h-10"
@@ -116,7 +116,7 @@ export const Nav = () => {
                 <span className="text-xl  customInnerShadow  ">hallenberg</span>
               </div>
               <div className=" -mr-2 flex w-screen justify-end">
-                <button className="" onClick={handleCloseMenu}>
+                <button className="sr-only	" onClick={handleCloseMenu}>
                   <XMarkIcon className="exit-animation w-10 h-10" />
                 </button>
               </div>

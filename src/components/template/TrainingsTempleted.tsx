@@ -56,7 +56,7 @@ export const TrainingsTempleted = () => {
       <SectionLayout sectionTitle="Faq" sectionID="#faq">
         <Faq />
       </SectionLayout>
-      <span></span>
+
       <Vortail url="/video/Selbstverteidigung.mp4" title="Selbstverteidigung" />
       <Vortail url="/video/fit.mp4" title="Fit zu sein" />
     </div>
