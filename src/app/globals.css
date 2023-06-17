@@ -13,7 +13,7 @@
     display: none
 }
 .animation {
-    animation: scaleAnimation 1s  linear ;
+    animation: scaleAnimation 0.4s  linear ;
   }
   
   @keyframes scaleAnimation {

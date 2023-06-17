@@ -23,6 +23,7 @@ export const Header = ({ url, children, hasVideo }: HeaderProps) => {
           loop
           muted
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none  "
+          title={"header video"}
         >
           <source src={url} type="video/mp4" />
         </video>
@@ -31,6 +32,7 @@ export const Header = ({ url, children, hasVideo }: HeaderProps) => {
           src={url}
           alt=""
           className="w-screen h-screen"
+          loading="lazy"
           fill={true}
           style={{ objectFit: "cover" }}
         />

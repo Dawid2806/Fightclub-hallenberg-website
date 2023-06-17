@@ -37,6 +37,7 @@ export const HeroHeading = ({
             loop
             muted
             className="object-contain mt-10 mx-auto w-full h-full "
+            title={`video ${title}`}
           >
             <source src={url} type="video/mp4" />
           </video>
@@ -46,6 +47,7 @@ export const HeroHeading = ({
             alt=""
             width={400}
             height={400}
+            loading="lazy"
             className="object-contain mt-10 mx-auto "
           />
         )}

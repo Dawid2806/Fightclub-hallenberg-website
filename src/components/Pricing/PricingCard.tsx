@@ -21,7 +21,7 @@ export const PricingCard = ({
       <div className="flex flex-col text-lg">{children}</div>
       <a
         href="https://fightclub-hallenberg.pronummus.com/"
-        className="bg-secondary w-2/4 mx-auto py-2 rounded-lg my-8 uppercase"
+        className="bg-secondary w-2/4 mx-auto py-2 rounded-lg my-8 uppercase text-white"
       >
         anmelden
       </a>

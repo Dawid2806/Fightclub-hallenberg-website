@@ -19,6 +19,7 @@ export const CategoryButton = ({
       className={`uppercase rounded-md py-2 px-8 text-xl ${
         isSelected ? "bg-secondary " : " bg-red-950 text-primary"
       }`}
+      aria-label={name}
     >
       {name}
     </button>
