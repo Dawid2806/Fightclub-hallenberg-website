@@ -4,6 +4,7 @@ import { Roboto } from "next/font/google";
 import localFont from "next/font/local";
 import { Footer } from "@/components/Footer/Footer";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 const roboto = Roboto({
   weight: ["300", "700", "900"],
@@ -75,6 +76,7 @@ export default function RootLayout({
           <Footer />
         </>
       </body>
+      <Analytics />
     </html>
   );
 }
