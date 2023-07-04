@@ -13,7 +13,12 @@ export const Vortail = ({ title, url, urlWebm }: VortailProps) => {
       <div className="absolute z-20 top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4 uppercase font-ddc">
         <span className="text-secondary text-4xl  md:text-6xl">{title}</span>
       </div>
-      <video autoPlay loop muted className="absolute z-10 ">
+      <video
+        autoPlay={true}
+        loop={true}
+        muted={true}
+        className="absolute z-10 "
+      >
         <source src={url} type="video/mp4" />
         <source src={urlWebm} type="video/webm" />
       </video>

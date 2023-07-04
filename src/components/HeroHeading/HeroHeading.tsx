@@ -35,9 +35,9 @@ export const HeroHeading = ({
       <div className="flex-1">
         {hasVideo ? (
           <video
-            autoPlay
-            loop
-            muted
+            autoPlay={true}
+            loop={true}
+            muted={true}
             className="object-contain mt-10 mx-auto w-full h-full "
             title={`video ${title}`}
           >

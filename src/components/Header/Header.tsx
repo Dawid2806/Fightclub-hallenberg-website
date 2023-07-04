@@ -27,9 +27,9 @@ export const Header = ({
       </div>
       {hasVideo ? (
         <video
-          autoPlay
-          loop
-          muted
+          autoPlay={true}
+          loop={true}
+          muted={true}
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none  "
           title={"header video"}
         >
