@@ -24,7 +24,7 @@ export const TrainingsTable = () => {
           <Training time="17:00-18:15" training="Lady-Training" />
         </TrainingDay>
         <TrainingDay day="freitag">
-          <Training time="18:30-19:45" training="Thaiboxen" />
+          <Training time="18:30-19:45" training="Thnnaiboxen" />
           <Training time="20:00-21:15" training="MMA" />
         </TrainingDay>
         <TrainingDay day="samstag">
@@ -38,7 +38,7 @@ export const TrainingsTable = () => {
       <div>
         <Link href={"/trainings"} legacyBehavior>
           <a className="bg-secondary py-2 px-4 block w-fit mx-auto mt-10 font-ddc  text-2xl">
-            Alle Trainings
+            UNSERE TRAININGS
           </a>
         </Link>
       </div>
