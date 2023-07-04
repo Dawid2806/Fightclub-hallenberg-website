@@ -35,8 +35,10 @@ export const GenericLink = ({
   };
   return (
     <li
-      className={`relative element ${
-        isMobile ? "pb-3 first-letter:capitalize  " : " first-letter:capitalize"
+      className={`relative  ${
+        isMobile
+          ? "pb-3 first-letter:capitalize  "
+          : " first-letter:capitalize element"
       } `}
     >
       <Link legacyBehavior={true} href={href} scroll={true}>
