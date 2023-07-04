@@ -30,8 +30,8 @@ export const GenericLink = ({
           behavior: "smooth",
         });
       }
-      if (isMobile && closeMenu) closeMenu(); // Zamyka menu po kliknięciu linku na urządzeniach mobilnych
     }
+    if (isMobile && closeMenu) closeMenu();
   };
   return (
     <li
@@ -39,13 +39,10 @@ export const GenericLink = ({
         isMobile ? "pb-3 first-letter:capitalize  " : " first-letter:capitalize"
       } `}
     >
-      <Link
-        href={href}
-        scroll={true}
-        className={""}
-        onClick={(e) => scrollSmoothly(e, href.slice(1))}
-      >
-        {title}
+      <Link legacyBehavior={true} href={href} scroll={true}>
+        <a className={""} onClick={(e) => scrollSmoothly(e, href.slice(1))}>
+          {title}
+        </a>
       </Link>
     </li>
   );

@@ -100,7 +100,7 @@ export const Nav = () => {
       {isOpen && (
         <div
           className={classNames(
-            "absolute top-0 left-0  w-2/3  h-screen   overflow-hidden z-50 bg-black  p-2  md:hidden",
+            "absolute top-0 left-0  w-2/3  h-screen   overflow-hidden z-40 bg-black  p-2  md:hidden",
             {
               mobile_nav_animation: isOpen,
               mobile_nav_exit_animation: isClosing,
@@ -159,7 +159,7 @@ export const Nav = () => {
               <Link href={"https://www.fightclub-hallenberg.app/"}>App</Link>
 
               <GenericLink
-                href={pathname === "/" ? "#kontakt" : "/#kontakt"}
+                href={pathname === "/" ? "#kontakt" : "#kontakt"}
                 title="kontakt"
                 isMobile={true}
                 closeMenu={() => setIsOpen(false)}

@@ -7,7 +7,7 @@ export default function HomePage() {
       <Head>
         <title>FightClub-Hallenberg</title>
       </Head>
-      <Home />;
+      <Home />
     </>
   );
 }
