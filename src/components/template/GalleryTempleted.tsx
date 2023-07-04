@@ -21,7 +21,7 @@ export const GalleryTempleted = () => {
       <SectionLayout>
         <Script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></Script>
         <iframe
-          src="//lightwidget.com/widgets/aa53e8e015f05746b1e44b4e6418a30d.html"
+          src="https://cdn.lightwidget.com/widgets/e08cf5cfb40053c5804268f7ae3ddfc0.html"
           className="lightwidget-widget py-4"
           style={{
             width: "100%",

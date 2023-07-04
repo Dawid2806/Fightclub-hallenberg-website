@@ -7,7 +7,7 @@ export const Gallery = () => {
     <div className="my-20">
       <Script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></Script>
       <iframe
-        src="//lightwidget.com/widgets/d1a2b4be310c5ce38bc21c26014c39f1.html"
+        src="https://cdn.lightwidget.com/widgets/e08cf5cfb40053c5804268f7ae3ddfc0.html"
         className="lightwidget-widget"
         style={{
           width: "100%",
