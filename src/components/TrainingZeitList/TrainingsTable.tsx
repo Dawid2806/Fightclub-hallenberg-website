@@ -8,7 +8,7 @@ export const TrainingsTable = () => {
     <div>
       <div className="flex flex-col items-center lg:items-start lg:flex-row mx-auto px-4 lg:justify-between  my-20 ">
         <TrainingDay day="montag">
-          <Training time="17:00-18:15" training="Kinder-Training" />
+          <Training time="17:00-18:00" training="Kinder-Training" />
           <Training time="18:30-19:45" training="Thaiboxen" />
           <Training time="20:00-21:15" training="MMA" />
         </TrainingDay>
@@ -16,7 +16,7 @@ export const TrainingsTable = () => {
           <Training time="17:00-18:15" training="Lady-Training" />
         </TrainingDay>
         <TrainingDay day="mittwoch">
-          <Training time="17:00-18:15" training="Kinder-Training" />
+          <Training time="17:00-18:00" training="Kinder-Training" />
           <Training time="18:30-19:45" training="Thaiboxen" />
           <Training time="20:00-21:15" training="MMA" />
         </TrainingDay>
