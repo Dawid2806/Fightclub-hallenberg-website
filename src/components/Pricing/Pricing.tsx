@@ -5,6 +5,7 @@ import { PricingCard } from "./PricingCard";
 
 export const Pricing = () => {
   const [selectedCategory, setSelectedCategory] = useState("männer");
+  const [phoneNumber, setPhoneNumber] = useState("0177/3877741");
 
   const handleCategoryClick = (category: string) => {
     setSelectedCategory(category);
@@ -74,7 +75,7 @@ export const Pricing = () => {
       <div className="flex flex-col items-center text-primary text-4xl md:text-5xl uppercase font-ddc">
         <h3>probetraining?</h3>
         <span>melden sie sich bei uns</span>
-        <span className="text-secondary">01520/1494800</span>
+        <span className="text-secondary cursor-pointer">{phoneNumber}</span>
       </div>
     </div>
   );

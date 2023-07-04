@@ -19,8 +19,8 @@ export const TrainingsTempleted = () => {
         urlWebm="video/training_header.webm"
       >
         <>
-          <h1 className="text-7xl text-center ">unsere</h1>
-          <span className="text-8xl   text-secondary  ">Trainings</span>
+          <h1 className="text-7xl text-center ">Unser</h1>
+          <span className="text-8xl   text-secondary  ">Training</span>
         </>
       </Header>
       <SectionLayout sectionID="#about">

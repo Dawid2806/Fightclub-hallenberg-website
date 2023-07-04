@@ -27,7 +27,7 @@ export const HeroHeading = ({
       }    p-10 gap-6 `}
     >
       <div className="flex-1">
-        <h2 className="text-secondary font-ddc text-4xl  md:text-6xl mb-10">
+        <h2 className="text-secondary  font-ddc text-4xl  md:text-6xl mb-10">
           {title}
         </h2>
         <p className="text-xl ">{description}</p>

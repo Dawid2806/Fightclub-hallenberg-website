@@ -38,7 +38,7 @@ export const TrainingsTable = () => {
       <div>
         <Link href={"/trainings"} legacyBehavior>
           <a className="bg-secondary py-2 px-4 block w-fit mx-auto mt-10 font-ddc  text-2xl">
-            UNSERE TRAININGS
+            Unser Training
           </a>
         </Link>
       </div>
