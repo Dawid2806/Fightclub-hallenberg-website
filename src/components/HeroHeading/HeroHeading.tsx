@@ -38,6 +38,7 @@ export const HeroHeading = ({
             autoPlay={true}
             loop={true}
             muted={true}
+            playsInline={true}
             className="object-contain mt-10 mx-auto w-full h-full "
             title={`video ${title}`}
           >

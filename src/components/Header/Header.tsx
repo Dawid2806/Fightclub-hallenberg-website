@@ -30,6 +30,7 @@ export const Header = ({
           autoPlay={true}
           loop={true}
           muted={true}
+          playsInline={true}
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none  "
           title={"header video"}
         >
