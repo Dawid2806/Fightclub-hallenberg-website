@@ -7,6 +7,7 @@ interface HeroHeadingProps {
   url: string;
   isReverse: boolean;
   hasVideo: boolean;
+  urlWebm?: string;
 }
 
 export const HeroHeading = ({
@@ -15,6 +16,7 @@ export const HeroHeading = ({
   url,
   isReverse,
   hasVideo,
+  urlWebm,
 }: HeroHeadingProps) => {
   return (
     <div
@@ -40,6 +42,7 @@ export const HeroHeading = ({
             title={`video ${title}`}
           >
             <source src={url} type="video/mp4" />
+            <source src={urlWebm} type="video/webm" />
           </video>
         ) : (
           <Image

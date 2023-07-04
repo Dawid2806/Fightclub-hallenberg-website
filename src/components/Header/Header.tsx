@@ -2,12 +2,20 @@ import Image from "next/image";
 import React, { ReactNode } from "react";
 
 interface HeaderProps {
-  url: string;
+  url?: string;
   children: ReactNode;
   hasVideo: boolean;
+  urlMp4?: string;
+  urlWebm?: string;
 }
 
-export const Header = ({ url, children, hasVideo }: HeaderProps) => {
+export const Header = ({
+  url,
+  urlWebm,
+  urlMp4,
+  children,
+  hasVideo,
+}: HeaderProps) => {
   return (
     <header
       className="relative flex items-center justify-center h-screen  overflow-hidden"
@@ -25,11 +33,12 @@ export const Header = ({ url, children, hasVideo }: HeaderProps) => {
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none  "
           title={"header video"}
         >
-          <source src={url} type="video/mp4" />
+          <source src={urlMp4} type="video/mp4" />
+          <source src={urlWebm} type="video/webm" />
         </video>
       ) : (
         <Image
-          src={url}
+          src={url!}
           alt=""
           className="w-screen h-screen"
           loading="lazy"

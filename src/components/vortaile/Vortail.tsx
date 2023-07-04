@@ -3,9 +3,10 @@ import React from "react";
 interface VortailProps {
   url: string;
   title: string;
+  urlWebm?: string;
 }
 
-export const Vortail = ({ title, url }: VortailProps) => {
+export const Vortail = ({ title, url, urlWebm }: VortailProps) => {
   return (
     <div className="relative flex w-[98vw] h-[200px] max-w-[1920px] md:h-[500px] video items-center justify-center overflow-hidden">
       <div className="bg-black w-full h-full absolute top-0 left-0 z-20 opacity-50"></div>
@@ -14,6 +15,7 @@ export const Vortail = ({ title, url }: VortailProps) => {
       </div>
       <video autoPlay loop muted className="absolute z-10 ">
         <source src={url} type="video/mp4" />
+        <source src={urlWebm} type="video/webm" />
       </video>
     </div>
   );

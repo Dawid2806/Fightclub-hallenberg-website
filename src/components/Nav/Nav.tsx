@@ -40,10 +40,10 @@ export const Nav = () => {
   return (
     <nav className="sticky z-30 bg-black top-0 pt-8 pb-3">
       <div>
-        <div className="flex justify-between md:block">
+        <div className="flex justify-between lg:block">
           <div className="flex items-center justify-between mx-20">
             <Logo />
-            <div className="hidden md:flex">
+            <div className="hidden lg:flex">
               <ul className=" flex gap-10  text-xl ">
                 {/* Menu items for desktop */}
                 <GenericLink
@@ -81,7 +81,7 @@ export const Nav = () => {
               </ul>
             </div>
           </div>
-          <div className="flex mr-20  md:hidden">
+          <div className="flex mr-20  lg:hidden">
             {/* Mobile menu button */}
             <button
               type="button"
