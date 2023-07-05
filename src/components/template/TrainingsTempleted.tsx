@@ -41,7 +41,7 @@ export const TrainingsTempleted = () => {
           description="Tauchen Sie ein in die Welt des Thaiboxens, auch bekannt als Muay Thai. Dieser antike Kampfsport, der seine Wurzeln in Thailand hat, ist bekannt für seine kraftvollen Schläge und Tritte, sowie für den Einsatz von Ellenbogen und Knien. Thaiboxen ist nicht nur ein effektiver Selbstverteidigungssport, sondern auch eine hervorragende Möglichkeit, Fitness und Ausdauer zu verbessern. Es fördert Disziplin, Respekt und Selbstvertrauen, und ist eine spannende und herausfordernde Art, in Form zu bleiben.
           "
           isReverse={true}
-          title="Thaiboxing"
+          title="Thaiboxen"
         ></HeroHeading>
         <HeroHeading
           hasVideo={true}

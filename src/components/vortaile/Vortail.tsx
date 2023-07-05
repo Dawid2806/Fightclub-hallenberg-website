@@ -18,6 +18,7 @@ export const Vortail = ({ title, url, urlWebm }: VortailProps) => {
         loop={true}
         muted={true}
         playsInline={true}
+        preload="auto"
         className="absolute z-10 "
       >
         <source src={url} type="video/mp4" />
