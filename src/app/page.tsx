@@ -7,6 +7,8 @@ export default function HomePage() {
     <>
       <Head>
         <title>FightClub-Hallenberg</title>
+      </Head>
+      <div>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-939WT6M10E" />
         <Script id="google-analytics">
           {`
@@ -17,7 +19,7 @@ export default function HomePage() {
           gtag('config', 'G-939WT6M10E');
         `}
         </Script>
-      </Head>
+      </div>
       <Home />
     </>
   );
