@@ -21,9 +21,7 @@ export const HeroHeading = ({
   return (
     <div
       className={`flex ${
-        isReverse
-          ? "flex-col-reverse md:flex-row-reverse"
-          : "flex-col md:flex-row"
+        isReverse ? "flex-col md:flex-row-reverse" : "flex-col md:flex-row"
       }    p-10 gap-6 `}
     >
       <div className="flex-1">
