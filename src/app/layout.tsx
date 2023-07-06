@@ -6,6 +6,9 @@ import { Footer } from "@/components/Footer/Footer";
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
 
+
+
+
 const roboto = Roboto({
   weight: ["300", "700", "900"],
 
@@ -25,9 +28,21 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+
+  
   return (
     <html lang="de" className="bg-black">
       <Head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-939WT6M10E">
+      </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-939WT6M10E');
+</script>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
