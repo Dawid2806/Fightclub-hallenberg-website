@@ -5,17 +5,10 @@ interface HeaderProps {
   url?: string;
   children: ReactNode;
   hasVideo: boolean;
-  urlMp4?: string;
   urlWebm?: string;
 }
 
-export const Header = ({
-  url,
-  urlWebm,
-  urlMp4,
-  children,
-  hasVideo,
-}: HeaderProps) => {
+export const Header = ({ url, urlWebm, children, hasVideo }: HeaderProps) => {
   return (
     <header
       className="relative flex items-center justify-center h-screen  overflow-hidden"
@@ -34,7 +27,7 @@ export const Header = ({
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none  "
           title={"header video"}
         >
-          <source src={urlMp4} type="video/mp4" />
+          <source src={url} type="video/mp4" />
           <source src={urlWebm} type="video/webm" />
         </video>
       ) : (

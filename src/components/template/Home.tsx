@@ -27,8 +27,7 @@ export const Home = () => {
       <Header
         url="video/home_header_video.mp4"
         hasVideo={true}
-        urlMp4="video/home_header_video.webm"
-        urlWebm="video/home_header_video.mp4"
+        urlWebm="video/home_header_video.webm"
       >
         <>
           <h1 className="text-7xl text-center ">

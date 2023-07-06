@@ -15,7 +15,6 @@ export const TrainingsTempleted = () => {
       <Header
         hasVideo={true}
         url="video/training_header.mp4"
-        urlMp4="video/training_header.mp4"
         urlWebm="video/training_header.webm"
       >
         <>
