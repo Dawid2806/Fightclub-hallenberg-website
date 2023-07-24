@@ -28,7 +28,7 @@ export const TrainingsTable = () => {
           <Training time="20:00-21:15" training="MMA" />
         </TrainingDay>
         <TrainingDay day="samstag">
-          <Training time="10:30-11:45" training="Kinder-Training" />
+          <Training time="10:30-11:30" training="Kinder-Training" />
           <Training time="12:00-13:15" training="Lady-Training" />
         </TrainingDay>
         <TrainingDay day="sonntag">
