@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 
 interface TrainingDayProps {
   day: string;
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 export const TrainingDay = ({ day, children }: TrainingDayProps) => {
