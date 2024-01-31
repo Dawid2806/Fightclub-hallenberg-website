@@ -16,7 +16,6 @@ export const Footer = () => {
         <ul className="text-center  text-xl">
           <li>Grundringhausen 15</li>
           <li>59969 Hallenberg</li>
-          <li>0177 / 3877741</li>
           <li>fightclub-hallenberg@hotmail.com</li>
         </ul>
       </div>
