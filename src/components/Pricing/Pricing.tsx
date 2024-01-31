@@ -75,7 +75,6 @@ export const Pricing = () => {
       <div className="flex flex-col items-center text-primary text-4xl md:text-5xl uppercase font-ddc">
         <h3>probetraining?</h3>
         <span>melden sie sich bei uns</span>
-        <span className="text-secondary cursor-pointer">{phoneNumber}</span>
       </div>
     </div>
   );
